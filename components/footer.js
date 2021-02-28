@@ -1,5 +1,5 @@
-import Container from './container'
-import { EXAMPLE_PATH } from '../lib/constants'
+import Container from "./container";
+import { EXAMPLE_PATH } from "../lib/constants";
 
 export default function Footer() {
   return (
@@ -7,10 +7,24 @@ export default function Footer() {
       <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center">
           <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-           Follow me on Social Media @SamLuvsPizza on <a href="https://twitter.com/SamLuvsPizza">Instagram</a> and on <a href="https://www.instagram.com/samluvspizza/">Twitter</a>!
+            Follow me on Social Media @SamLuvsPizza on{" "}
+            <a
+              href="https://twitter.com/SamLuvsPizza"
+              style={{ color: "rebeccapurple" }}
+            >
+              Instagram
+            </a>{" "}
+            and on{" "}
+            <a
+              href="https://www.instagram.com/samluvspizza/"
+              style={{ color: "rebeccapurple" }}
+            >
+              Twitter
+            </a>
+            !
           </h3>
         </div>
       </Container>
     </footer>
-  )
+  );
 }
